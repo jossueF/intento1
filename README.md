@@ -1,4 +1,5 @@
 # Frontend
+![index](https://user-images.githubusercontent.com/27965103/183316902-1940b3e5-3f7c-4839-b4d1-cf33f8454338.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
 
