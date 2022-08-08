@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', calibri, sans-serif;
+}
+
+.container {
+    width: 75%;
+    margin: 40px auto;
+}
+
+.temperatura {
+    height: 300px;
+    width: auto;
+    border: 1px solid black;
+    padding: 16px;
+    margin-bottom: 16px;
+
+    /* flex */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: stretch;
+}
+
+.humedad {
+    height: 300px;
+    width: auto;
+    border: 1px solid black;
+    padding: 16px;
+
+    /* flex */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: stretch;
+}
+
+.info-temperatura {
+    height: auto;
+    width: 25%;
+    /*border: 1px solid black;*/
+}
+
+.info-temperatura > * {
+    margin: 8px 0;
+}
+
+.info-humedad {
+    height: auto;
+    width: 25%;
+    /*border: 1px solid black;*/
+}
+
+.info-humedad > * {
+    margin: 8px 0;
+}
+
+.chart-temperatura {
+    height: 100%;
+    width: 75%;
+    border: 1px solid black;
+}
+
+.chart-humedad {
+    height: 100%;
+    width: 75%;
+    border: 1px solid black;
+}
